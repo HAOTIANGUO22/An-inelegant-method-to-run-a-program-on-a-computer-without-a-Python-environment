@@ -77,7 +77,7 @@ MyApp/
 ## Startup Script
 
 Create a `run.bat` file in the root folder:
-“
+
 ```bat
 @echo off
 setlocal
@@ -97,11 +97,4 @@ if not exist "%ROOT%conda\envs\PinPong\python.exe" (
 "%ROOT%conda\envs\PinPong\python.exe" "%ROOT%main.py"
 
 pause
-”
 
-Usage
-Unzip the provided folder.
-
-Double-click run.bat.
-
-The program runs without requiring Python or Conda on the target computer.
